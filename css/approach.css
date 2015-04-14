@@ -1,233 +1,8 @@
 @import url(foundation/foundation-icons-75194202.css);
 @import url(fontcustom/fontcustom-62cc01f9.css);
-.highlight table td {
-	padding: 5px
-}
-.highlight table pre {
-	margin: 0
-}
-.highlight .cm {
-	color: #999988;
-	font-style: italic
-}
-.highlight .cp {
-	color: #999999;
-	font-weight: bold
-}
-.highlight .c1 {
-	color: #999988;
-	font-style: italic
-}
-.highlight .cs {
-	color: #999999;
-	font-weight: bold;
-	font-style: italic
-}
-.highlight .c, .highlight .cd {
-	color: #999988;
-	font-style: italic
-}
-.highlight .err {
-	color: #a61717;
-	background-color: #e3d2d2
-}
-.highlight .gd {
-	color: #000000;
-	background-color: #ffdddd
-}
-.highlight .ge {
-	color: #000000;
-	font-style: italic
-}
-.highlight .gr {
-	color: #aa0000
-}
-.highlight .gh {
-	color: #999999
-}
-.highlight .gi {
-	color: #000000;
-	background-color: #ddffdd
-}
-.highlight .go {
-	color: #888888
-}
-.highlight .gp {
-	color: #555555
-}
-.highlight .gs {
-	font-weight: bold
-}
-.highlight .gu {
-	color: #aaaaaa
-}
-.highlight .gt {
-	color: #aa0000
-}
-.highlight .kc {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .kd {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .kn {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .kp {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .kr {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .kt {
-	color: #445588;
-	font-weight: bold
-}
-.highlight .k, .highlight .kv {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .mf {
-	color: #009999
-}
-.highlight .mh {
-	color: #009999
-}
-.highlight .il {
-	color: #009999
-}
-.highlight .mi {
-	color: #009999
-}
-.highlight .mo {
-	color: #009999
-}
-.highlight .m, .highlight .mb, .highlight .mx {
-	color: #009999
-}
-.highlight .sb {
-	color: #d14
-}
-.highlight .sc {
-	color: #d14
-}
-.highlight .sd {
-	color: #d14
-}
-.highlight .s2 {
-	color: #d14
-}
-.highlight .se {
-	color: #d14
-}
-.highlight .sh {
-	color: #d14
-}
-.highlight .si {
-	color: #d14
-}
-.highlight .sx {
-	color: #d14
-}
-.highlight .sr {
-	color: #009926
-}
-.highlight .s1 {
-	color: #d14
-}
-.highlight .ss {
-	color: #990073
-}
-.highlight .s {
-	color: #d14
-}
-.highlight .na {
-	color: #008080
-}
-.highlight .bp {
-	color: #999999
-}
-.highlight .nb {
-	color: #0086B3
-}
-.highlight .nc {
-	color: #445588;
-	font-weight: bold
-}
-.highlight .no {
-	color: #008080
-}
-.highlight .nd {
-	color: #3c5d5d;
-	font-weight: bold
-}
-.highlight .ni {
-	color: #800080
-}
-.highlight .ne {
-	color: #990000;
-	font-weight: bold
-}
-.highlight .nf {
-	color: #990000;
-	font-weight: bold
-}
-.highlight .nl {
-	color: #990000;
-	font-weight: bold
-}
-.highlight .nn {
-	color: #555555
-}
-.highlight .nt {
-	color: #000080
-}
-.highlight .vc {
-	color: #008080
-}
-.highlight .vg {
-	color: #008080
-}
-.highlight .vi {
-	color: #008080
-}
-.highlight .nv {
-	color: #008080
-}
-.highlight .ow {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .o {
-	color: #000000;
-	font-weight: bold
-}
-.highlight .w {
-	color: #bbbbbb
-}
-.highlight {
-	background-color: #f8f8f8
-}/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
-html, button, input, select, textarea {
-	color: #222
-}
-body {
-	color: white;
-	background: rgba(20,17,23,0.97);
-	font-size: 19px;
-	line-height: 1.4;
-	font-weight: 100;
-	padding: 0;
-	font-family: "adelle", Georgia, serif;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale
-}
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+
+
 a:link, a:visited {
 	color: white;
 	font-weight: 300;
@@ -385,17 +160,7 @@ audio:not([controls]) {
 [hidden] {
 	display: none
 }
-html {
-	font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%
-}
-html, button, input, select, textarea {
-	font-family: sans-serif
-}
-body {
-	margin: 0
-}
+
 a:focus {
 	outline: thin dotted
 }
@@ -442,9 +207,7 @@ mark {
 	background: #ff0;
 	color: #000
 }
-p, pre {
-	margin: 1em 0
-}
+
 code, kbd, pre, samp {
 	font-family: monospace, serif;
 	_font-family: 'courier new', monospace;
@@ -561,11 +324,7 @@ table {
 input:focus, select:focus, textarea:focus, button:focus {
 	outline: none
 }
-p {
-	font-size: 26px;
-	line-height: 35px;
-	letter-spacing: 0.25px
-}
+
 .container {
 	padding: 5.5% 5%
 }
@@ -743,7 +502,7 @@ button:active, .button:active {
 }
 #site-header {
 	position: fixed;
-	width: 90%;
+	width: 100%;
 	height: 80px;
 	top: 0;
 	z-index: 999;
@@ -1043,7 +802,7 @@ input[type=submit] {
 }
 .footer-bottom {
 	float: left;
-	width: 90%;
+	width: 100%;
 	padding: 4% 5%;
 	background-color: #2b2533;
 	border-top: 1px solid rgba(255,255,255,0.1)
