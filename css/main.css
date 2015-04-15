@@ -2244,7 +2244,7 @@ body {
 .odc-logo-link--footer:hover img {
 	opacity: 1
 }
-.outline-button {
+/* .outline-button {
 	text-indent: -9999em;
 	position: relative;
 	display: block;
@@ -2291,7 +2291,7 @@ body {
 }
 .outline-button:hover:after {
 	display: block
-}
+} */
 .csstransforms3d .outline-button:before, .csstransforms3d .outline-button:after {
 	-webkit-transform-origin: 50% 50% -2.07692em;
 	transform-origin: 50% 50% -2.07692em;
@@ -3489,7 +3489,7 @@ body {
 	padding: 12.5%;
 	position: relative;
 	background-color: #302614;
-	background-image: url("../images/blurry-bg.jpg");
+	background-image: url("../img/blurry-bg.jpg");
 	background-position: center center;
 	background-size: cover
 }
@@ -3839,7 +3839,7 @@ body {
 	margin-right: auto;
 	position: relative;
 	background-color: #302614;
-	background-image: url("../images/blurry-bg.jpg");
+	background-image: url("../img/blurry-bg.jpg");
 	background-position: center center;
 	background-size: cover
 }
