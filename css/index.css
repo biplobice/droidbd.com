@@ -1,27 +1,4 @@
-@font-face {
-    font-family: 'ChunkFiveRegular';
-    src: url('../fonts/Chunkfive.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'BigPoppaE-Regular';
-    src: url('../fonts/BigPoppaE-Regular.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'JosefinSlab-Bold';
-    src: url('../fonts/JosefinSlab-Bold.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'JosefinSlab-SemiBold';
-    src: url('../fonts/JosefinSlab-SemiBold.otf');
-    font-weight: normal;
-    font-style: normal;
-}
+
 body {
 	font-family: 'JosefinSlab-SemiBold';
 	font-size: 26pt!important;

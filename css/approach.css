@@ -2,6 +2,17 @@
 @import url(fontcustom/fontcustom-62cc01f9.css);
 /*! normalize.css v1.0.1 | MIT License | git.io/normalize */
 
+#site-header {
+	width: 100%;
+}
+
+#site-header.onscroll {
+	height: 80px;
+}
+
+
+
+
 
 a:link, a:visited {
 	color: white;
@@ -444,125 +455,8 @@ button:active, .button:active {
 #estimated-budget, #delivery-timeframe {
 	margin-bottom: 20px
 }
-.logo {
-	float: left;
-	width: 20%;
-	margin: 0
-}
-.logo-link {
-	float: left;
-	margin: 0;
-	font-size: 16px;
-	width: 63px;
-	height: 36px;
-	text-indent: -9999px;
-	background: url('../img/logo.svg') no-repeat left top
-}
-.main-nav {
-	text-align: center;
-	float: left;
-	width: 60%;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 20px;
-	line-height: 36px;
-	font-family: "JosefinSlab-Bold",　"ff-din-web", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 4px
-}
-.main-nav a {
-	display: inline-block;
-	padding: 0 1%
-}
-.main-nav .active, .main-nav-cta .active {
-	top: 0;
-	color: #9c9ba2
-}
-.main-nav-cta {
-	text-align: right;
-	float: left;
-	width: 20%;
-	font-size: 22px;
-	line-height: 34px;
-	font-family: "JosefinSlab-Bold",　"ff-din-web", Helvetica, Arial, sans-serif;	
-}
-.main-nav-cta a {
-	color: #f0e99a
-}
-.nav-links a:hover, .nav-links a.hover {
-	color: #a95da4;
-	-webkit-transition: top .04s ease-out
-}
-.nav-links a:active {
-	color: #83467f;
-	position: relative;
-	font-weight: normal;
-	top: 1px
-}
-#site-header {
-	position: fixed;
-	width: 100%;
-	height: 80px;
-	top: 0;
-	z-index: 999;
-	background: none, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(10%, rgba(20,17,23,0.9)), color-stop(100%, rgba(20,17,23,0)));
-	background: none, -webkit-linear-gradient(top, rgba(20,17,23,0.9) 10%, rgba(20,17,23,0) 100%);
-	background: none, -moz-linear-gradient(top, rgba(20,17,23,0.9) 10%, rgba(20,17,23,0) 100%);
-	background: none, -o-linear-gradient(top, rgba(20,17,23,0.9) 10%, rgba(20,17,23,0) 100%);
-	background: none, linear-gradient(top, rgba(20,17,23,0.9) 10%,rgba(20,17,23,0) 100%);
-	padding: 3.5% 5.5%
-}
-#site-header.onscroll {
-	height: 40px;
-	background: #141117;
-	padding-top: 20px;
-	padding-bottom: 17px;
-	z-index: 1100
-}
-#site-header.onscroll nav ul li a {
-	line-height: 1.3em;
-	float: left;
-	padding: 22px 0 20px 0
-}
-#site-header.onscroll .logo img {
-	padding-top: 2px;
-	background: #5a77b9
-}
-.home-about, .home-services, .home-team, .home-contact, .home-projects {
-	background-color: white;
-	color: #141117
-}
-.home-about p, .home-services p, .home-team p, .home-contact p, .home-projects p {
-	color: #141117
-	font-family: "JosefinSlab-SemiBold";
-	font-size: 24px;
-}
-.home-about p.centered  {
-	font-size: 40px;
-}
-.bold-uppercase-header {
-	font-family: "ChunkFiveRegular", Helvetica, Arial, sans-serif;
-	letter-spacing: 4px;
-	font-weight: bold;
-	font-size: 60px;
-	padding-top: 0.1em
-}
-.sub-header-serif {
-	font-family: "adelle", Georgia, serif;
-	font-weight: bold;
-	font-size: 21px;
-	line-height: 31px;
-	letter-spacing: 0;
-	padding: 1.1em 0 0.6em 0;
-	display: block
-}
-.tagline {
-	font-family: 'JosefinSlab-Bold',"adelle", Georgia, serif;
-	font-weight: normal;
-	font-size: 45px;
-	line-height: 66px
-}
+
+
 .uppercase-sans-small {
 	font-family: "calibri";
 	text-align: center;
@@ -577,7 +471,7 @@ button:active, .button:active {
 .serif-light-title {
 	text-align: center;
 	font-weight: normal;
-	font-family: 'JosefinSlab-Bold', "adelle", Georgia, serif;
+	font-family: 'JosefinSlabBold', "adelle", Georgia, serif;
 	font-size: 60px;
 	line-height: 50px;
 	margin: 24px 0 6.5% 0
@@ -808,7 +702,7 @@ input[type=submit] {
 	border-top: 1px solid rgba(255,255,255,0.1)
 }
 .footer-bottom p {
-	font-family: "JosefinSlab-Bold";
+	font-family: "JosefinSlabBold";
 }
 .footer-bottom ul {
 	margin: 0;
