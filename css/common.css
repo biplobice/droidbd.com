@@ -676,7 +676,7 @@ input:focus, select:focus, textarea:focus, button:focus {
 	outline: none
 }
 p {
-	font-size: 26px;
+	font-size: 22px;
 	line-height: 35px;
 	letter-spacing: 0.25px
 }
@@ -822,7 +822,7 @@ button:active, .button:active {
 	color: white;
 	font-size: 20px;
 	line-height: 36px;
-	font-family: "JosefinSlabBold",　"ff-din-web", Helvetica, Arial, sans-serif;
+	font-family: "JosefinSlabBold",ã€€"ff-din-web", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px
 }
@@ -840,7 +840,7 @@ button:active, .button:active {
 	width: 20%;
 	font-size: 22px;
 	line-height: 34px;
-	font-family: "JosefinSlabBold",　"ff-din-web", Helvetica, Arial, sans-serif;	
+	font-family: "JosefinSlabBold",ã€€"ff-din-web", Helvetica, Arial, sans-serif;	
 }
 .main-nav-cta a {
 	color: #f0e99a
@@ -1664,7 +1664,7 @@ ul.sub-services-list li {
 	margin-top: 5%
 }
 ul.sub-services-list {
-	margin: 30px 0 0 0;
+	margin: 30px 50px;
 	padding: 0;
 	/* font-size: 16px; */
 	line-height: 30px;
