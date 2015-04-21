@@ -1,19 +1,13 @@
-
-body {
-	font-family: 'JosefinSlab-SemiBold';
-	font-size: 26pt!important;
-}
-
 .sub-services h3 {
-  font-size: 72px;
-  margin: 50px auto;
+  font-size: 50px;
+  margin: 25px auto;
   font-family: "ChunkFiveRegular";
 }
 
 .main-services h3 {
 	font-family: 'ChunkFiveRegular';
-	font-size: 70px;
-	line-height: 86px;
+	font-size: 50px;
+	line-height: 56px;
 }
 
 .red {
