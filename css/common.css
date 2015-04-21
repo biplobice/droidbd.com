@@ -758,6 +758,7 @@ button:active, .button:active {
 .main-nav-cta a {
 	color: #f0e99a
 ;font-weight: bold;
+	font-family: "JoseFinSlab";
 }
 .nav-links a:hover, .nav-links a.hover {
 	color: #a95da4;
@@ -850,7 +851,7 @@ button:active, .button:active {
 .serif-light-title {
 	text-align: center;
 	/* font-weight: normal; */
-	/* font-family: "adelle", Georgia, serif; */
+	font-family: "JosefinSlab", "adelle", Georgia, serif;
 	font-size: 50px;
 	line-height: 50px;
 	margin: 24px 0 6.5% 0
@@ -881,7 +882,7 @@ button:active, .button:active {
 }
 .blurb, .casestudy-page .blurb {
 	font-family: "adelle", Georgia, serif;
-	text-shadow: 0 1px 6px rgba(20,17,23,0.6);
+	/* text-shadow: 0 1px 6px rgba(20,17,23,0.6); */
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 42px;
@@ -995,13 +996,15 @@ input[type=submit] {
 }
 .contact-info {
 	/* width: 55%; */
-	padding: 0;
+	padding: 0 20px;
 	margin: 0 auto;
 	color: white;
 	text-align: center
+;   
 }
 .contact-info p {
 	color: white
+;line-height: 35px;   letter-spacing: 0.25px;
 }
 .contact-info a a {
 	color: white;
@@ -1039,6 +1042,9 @@ input[type=submit] {
 	margin-top: 2%;
 	float: left;
 	width: 100%
+;
+	font-family: "JosefinSlab";
+	font-size: 19px;
 }
 .email-contact h3 {
 	margin-bottom: 10px
@@ -1080,6 +1086,11 @@ input[type=submit] {
 	background-color: #2b2533;
 	border-top: 1px solid rgba(255,255,255,0.1)
 ;font-weight: bold;
+	font-family: "JosefinSlab";
+	font-weight: bold;
+	color: #fff;
+	font-size: 19px;
+	line-height: 35px;
 }
 .footer-bottom ul {
 	margin: 0;
@@ -1483,6 +1494,8 @@ ul.sub-services-list li {
 	display: block;
 	position: relative;
 	z-index: 200
+;
+	color: #fff;
 }
 .home-about {
 	padding-left: 10%;
