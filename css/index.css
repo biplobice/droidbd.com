@@ -42,3 +42,6 @@
 	line-height: 1.1em;
 	line-height: 0em;
 }
+@media only screen and (max-width: 480px) {
+	.fa-fw { padding-top: 50%; }
+}
