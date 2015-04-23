@@ -14,10 +14,7 @@
 	color: #EB3552;
 }
 
-@media only screen and (max-width: 768px) {
-	.sub-services h3 { font-size: 48px; }
-	.main-services h3 { font-size: 46px; }
-}
+
 
 
 .fa-fw {
@@ -41,6 +38,11 @@
 	font-size: 180px;
 	line-height: 1.1em;
 	line-height: 0em;
+}
+@media only screen and (max-width: 768px) {
+	.sub-services h3 { font-size: 48px; }
+	.main-services h3 { font-size: 40px; }
+	.fa-fw { padding-top: 42%; }
 }
 @media only screen and (max-width: 480px) {
 	.fa-fw { padding-top: 50%; }

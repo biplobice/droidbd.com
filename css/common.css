@@ -475,8 +475,7 @@ mark {
 	color: #000
 }
 p, pre {
-	margin: 1em 0
-}
+	margin: 1em 0}
 code, kbd, pre, samp {
 	font-family: monospace, serif;
 	_font-family: 'courier new', monospace;
@@ -814,7 +813,7 @@ button:active, .button:active {
 .home-about p, .home-services p, .home-team p, .home-contact p, .home-projects p {
 	color: #141117
 ;
-	font-size: 30px;
+	margin-bottom: 30px;
 }
 .home-about p {
 	font-family: "JosefinSlab-SemiBold"
@@ -1009,8 +1008,10 @@ input[type=submit] {
 ;   
 }
 .contact-info p {
-	color: white
-;line-height: 35px;   letter-spacing: 0.25px;
+	color: white;
+	font-size: 25px;
+	line-height: 35px;
+	letter-spacing: 0.25px;
 }
 .contact-info a a {
 	color: white;
@@ -1090,42 +1091,17 @@ input[type=submit] {
 	width: 90%;
 	padding: 4% 5%;
 	background-color: #2b2533;
-	border-top: 1px solid rgba(255,255,255,0.1)
-;font-weight: bold;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	font-weight: bold;
 	font-family: "JosefinSlab";
 	font-weight: bold;
 	color: #fff;
 	font-size: 19px;
 	line-height: 35px;
 }
-.footer-bottom ul {
-	margin: 0;
-	padding: 0;
-	text-align: left
-}
-.footer-bottom ul li {
-	list-style-type: none;
-	display: inline-block;
-	padding: 0
-}
-.contact-offices {
-	width: 80%;
-	float: left
-}
-.office {
+.three-col-content {
 	float: left;
-	width: 45%;
-	display: block
-}
-.office h4 {
-	font-weight: bold;
-	padding: 10px 0;
-	margin: 0
-}
-.office-info {
-	float: left;
-	display: inline-block;
-	width: 68%
+	width: 33.33%;
 }
 .belfast, .london {
 	width: 106px;
@@ -1462,7 +1438,7 @@ ul.sub-services-list li {
 	/* font-size: 14px; */
 	/* border-top: 1px dotted #b1b0b6; */
 	list-style-type: none;
-	height: 36px;
+	/* height: 36px; */
 	line-height: 36px
 }
 .top {
@@ -1574,10 +1550,16 @@ ul.sub-services-list li {
 		margin: auto 10px!important;
 	}			
 }
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:900px) {
 	.sub-services .two-col-content p, ul.sub-services-list {
 		text-align: left;
 		margin: 20px 100px!important;
+	}	
+}
+@media only screen and (min-width:769px) {
+	.sub-services .two-col-content p, ul.sub-services-list {
+		text-align: left;
+		margin: 20px 20px;
 	}	
 }
 .four-col-content {
@@ -1635,7 +1617,7 @@ ul.sub-services-list li {
 	/* font-size: 14px; */
 	/* border-top: 1px dotted #b1b0b6; */
 	list-style-type: none;
-	height: 36px;
+	/* height: 36px; */
 	line-height: 36px
 ;text-align: left;
 }
@@ -3014,19 +2996,20 @@ blockquote p {
 		width: 50%
 	}
 }
+@media only screen and (min-width: 768px ) {
+	.two-col-content {
+		margin: 0px auto 45px;
+		/* padding: 0 5%; */
+		/* max-width: 400px; */
+		float: left;
+	}	
+}
 @media only screen and (max-width: 780px) {
 	.home-intro {
 		background-position: center
 	}
 	span.break {
 		display: inline
-	}
-	.two-col-content {
-		width: 100%;
-		margin: 0 auto 45px;
-		padding: 0 5%;
-		max-width: 400px;
-		float: none
 	}
 	.four-col-content {
 		padding-bottom: 20px
@@ -3070,11 +3053,10 @@ blockquote p {
 	}
 }
 @media only screen and (max-width: 480px) {
-	.two-col-content, .four-col-content {
+	.two-col-content, .four-col-content, .home-services .two-col-content {
 		width: 100%;
 		padding: 0;
-		margin: 0 0 35px 0
-	}
+		margin: 0 0 35px 0;}
 	.home-header-text .container {
 		padding: 0
 	}
@@ -3152,8 +3134,8 @@ blockquote p {
 		padding: 1em 0 0.8em 0
 	}
 	p, .four-col-content p, .four-col-content li {
-		font-size: 19px;
-		line-height: 25px;}
+		/* font-size: 25px; */
+		line-height: 30px;}
 	.article-footer-content h3 {
 		font-size: 22px
 	}
@@ -3198,7 +3180,7 @@ blockquote p {
 	}
 	.two-col-content p, .four-col-content p {
 		font-size: 22px;
-		line-height: 36px;
+		line-height: 30px;
 		letter-spacing: 0px
 	}
 	.two-col-content p p, .two-col-content p li, .four-col-content p p, .four-col-content p li {
@@ -3207,10 +3189,9 @@ blockquote p {
 		letter-spacing: 0px
 	}
 	ul.sub-services-list li {
-		font-size: 18px;
-		height: 42px;
-		line-height: 42px
-	}
+		/* font-size: 18px; */
+		/* height: 42px; */
+		/* line-height: 30px; */}
 	.featured-project p {
 		font-size: 18px
 	}
@@ -3467,6 +3448,18 @@ blockquote p {
 		font-size: 13px
 	}
 }
+@media only screen and (max-width: 767px) {
+.home-services .two-col-content {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 35px 0;
+}
+	
+	.footer-bottom .three-col-content {
+		width: 100%;
+		text-align: center;
+	}
+}
 @media only screen and (max-width: 600px) {
 	.post-avatar {
 		width: 34px;
@@ -3488,10 +3481,6 @@ blockquote p {
 	}
 	ul li.blog-index-post .post-meta .author, ul li.blog-index-post .post-meta .date {
 		display: inline-block
-	}
-	.footer-bottom p {
-		text-align: center;
-		margin-bottom: 30px;
 	}
 }
 @media only screen and (max-width: 480px) {
