@@ -886,19 +886,19 @@ button:active, .button:active {
 	margin: 5.5% 0 2% 0
 }
 .blurb, .casestudy-page .blurb {
-	font-family: "adelle", Georgia, serif;
+	/* font-family: "adelle", Georgia, serif; */
 	/* text-shadow: 0 1px 6px rgba(20,17,23,0.6); */
-	font-weight: bold;
-	font-size: 28px;
-	line-height: 42px;
-	color: white;
-	z-index: 700;
-	font-family: "adelle", Georgia, serif;
-	font-size: 28px;
-	line-height: 42px;
-	letter-spacing: 0;
-	font-weight: normal
-}
+	/* font-weight: bold; */
+	/* font-size: 28px; */
+	/* line-height: 42px; */
+	/* color: white; */
+	/* z-index: 700; */
+	/* font-family: "adelle", Georgia, serif; */
+	/* font-size: 28px; */
+	/* line-height: 42px; */
+	/* letter-spacing: 0; */
+	/* font-weight: normal
+ */}
 .white-divider-left {
 	float: left;
 	background-color: white;
@@ -1294,6 +1294,17 @@ input[type=submit] {
 .home-top {
 	margin-top: 2.5%
 }
+.profile-top {
+	margin-top: 0;}
+.profile-top > img {
+    max-width: 80%;
+	max-width 80%;
+}
+.profile-top .big-header {
+	margin: 0 5%;
+	line-height: 60px;
+}
+		
 .video-bg {
 	position: relative;
 	z-index: 0;
@@ -1324,6 +1335,9 @@ input[type=submit] {
 span.break {
 	display: block
 }
+.profile-intro {
+	background: #FFDF91;
+}
 .home-intro {
 	background-image: url("../img/bg6.jpg");
 	background-repeat: no-repeat;
@@ -1332,8 +1346,7 @@ span.break {
 	background-position: top right
 }
 .home-overlay {
-	background: rgba(0,0,0,0.45)
-}
+	background: rgba(0,0,0,0.25);}
 .icon-fat-right-arrow {
 	display: inline-block;
 	padding-top: 5px;

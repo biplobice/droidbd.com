@@ -371,7 +371,7 @@ html {
 body {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 400;
 	font-size: 13px;
 	font-size: 1.3rem;
@@ -827,14 +827,14 @@ body {
 .blurb__content__heading {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	font-family: 'JosefinSlab', 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
 	font-weight: 400;
-	font-size: 10px;
-	font-size: 1rem;
+	font-size: 12px;
+	/* font-size: 1rem; */
 	line-height: 2.2;
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 	color: #0085a1
@@ -842,11 +842,11 @@ body {
 .blurb__content__body {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	font-family: 'JosefinSlab','Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
 	font-weight: 400;
-	font-size: 10px;
-	font-size: 1rem;
-	line-height: 2.2;
+	font-size: 14px;
+	/* font-size: 1rem; */
+	line-height: 1.5;
 	color: #0085a1;
 	-webkit-font-smoothing: antialiased
 }
@@ -1798,18 +1798,17 @@ body {
 .markdown-block p, .markdown-block ul, .markdown-block ol {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
-	font-weight: 400;
-	font-size: 13px;
-	font-size: 1.3rem;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
+	/* font-weight: 400; */
+	font-size: 16px;
+	/* font-size: 1.3rem; */
 	line-height: 1.8;
 	-webkit-font-smoothing: antialiased;
 	color: inherit
 }
 @media (min-width:62.5em) {
 	.markdown-block p, .markdown-block ul, .markdown-block ol {
-		line-height: 2.0
-	}
+		/* line-height: 2.0 */}
 }
 .markdown-block a {
 	font-style: normal;
@@ -1974,11 +1973,11 @@ body {
 .markdown-block--s p, .markdown-block--s h1, .markdown-block--s h2, .markdown-block--s h3, .markdown-block--s h4, .markdown-block--s h5, .markdown-block--s h6, .markdown-block--s ul, .markdown-block--s ol, .markdown-block--s a, .markdown-block--s dl, .markdown-block--s dt {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
-	font-weight: 400;
-	font-size: 12px;
-	font-size: 1.2rem;
-	line-height: 1.9;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
+	/* font-weight: 400; */
+	/* font-size: 12px; */
+	/* font-size: 1.2rem; */
+	line-height: 1.5;
 	-webkit-font-smoothing: antialiased
 }
 .markdown-block--s a {
@@ -3589,8 +3588,7 @@ body {
 	margin-bottom: 16.66667%
 }
 .l-approach-blurbs .blurb+.blurb {
-	margin-top: 3.07692em
-}
+	margin-top: 3.07692em}
 @media (min-width:39.375em) {
 	.l-approach-blurbs {
 		width: 33.33333%;
