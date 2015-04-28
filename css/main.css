@@ -805,7 +805,7 @@ body {
 @media (min-width:39.375em) {
 	.blurb__image {
 		margin: 0;
-		margin-right: 1.53846em;
+		/* margin-right: 1.53846em; */
 		width: 4.61538em
 	}
 }
@@ -821,8 +821,8 @@ body {
 }
 @media (min-width:62.5em) {
 	.blurb__content {
-		max-width: 18.07692em
-	}
+		/* max-width: 18.07692em
+	 */}
 }
 .blurb__content__heading {
 	font-style: normal;
@@ -1007,10 +1007,6 @@ body {
 	border-bottom: 1px solid #d8ecf0;
 	border-bottom-left-radius: 3px;
 	background-color: rgba(247, 251, 252, 0.8)
-}
-.contact-info p {
-	font-size: 30px;
-	font-family: "JosefinSlab";
 }
 .contact-info strong {
 	font-style: normal;
@@ -3588,7 +3584,10 @@ body {
 	margin-bottom: 16.66667%
 }
 .l-approach-blurbs .blurb+.blurb {
-	margin-top: 3.07692em}
+	margin-top: 3.07692em
+;
+	margin-top: 20px;
+}
 @media (min-width:39.375em) {
 	.l-approach-blurbs {
 		width: 33.33333%;
@@ -3616,8 +3615,7 @@ body {
 		width: 33.33333%;
 		float: left;
 		margin: 0 8.33333%;
-		max-width: 34.61538em
-	}
+		max-width: 34.61538em}
 }
 .l-approach-content .heading-set {
 	margin-bottom: 3.07692em
@@ -3707,8 +3705,7 @@ body {
 @media (min-width:39.375em) {
 	.l-approach-process {
 		padding: 0;
-		padding-bottom: 8.33333%
-	}
+		padding-bottom: 8.33333%;}
 }
 @media (min-width:39.375em) {
 	.l-approach-process .l-approach-heading {

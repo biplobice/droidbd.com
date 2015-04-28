@@ -1,11 +1,69 @@
 #site-header {
 	width: 100%;
+	background: none;
 }
-
 #site-header.onscroll {
 	height: 80px;
 }
-
+.main-nav-cta a {
+  color: #009926 ;
+}
+.profile-top {
+	padding: 0;
+	margin: 0;
+}
+.profile-banner {
+	background: url('../img/profile-banner.svg') no-repeat center top;
+	background-size: contain;
+	width: 100%;
+	height: 600px;
+}
+.pro-services .two-col-content { width: 50%; }
+@media only screen and (max-width: 480px) {
+	.pro-services .two-col-content { width: 100%; }
+}
 .footer-bottom {
 	width: 100%;
+	color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 1400px) {
+	.profile-banner { height: 520px;}
+}
+
+@media only screen and (max-width: 1290px) {
+	.profile-banner { height: 500px;}
+}
+
+@media only screen and (max-width: 1200px) {
+	.profile-banner { height: 420px;}
+}
+
+@media only screen and (max-width: 1180px) {
+	.profile-banner { height: 380px;}
+}
+
+@media only screen and (max-width: 1080px) {
+	.profile-banner { height: 380px;}
+}
+
+@media only screen and (max-width: 1065px) {
+	.profile-banner { height: 380px;}
+}
+
+@media only screen and (max-width: 960px) {
+	.profile-banner { height: 380px;}
+}
+
+@media only screen and (max-width: 768px) {
+	.profile-banner { height: 380px;}
+}
+
+@media only screen and (max-width: 600px) {
+	.profile-banner { height: 380px;}
+}
+
+@media only screen and (max-width: 480px) {
+	.profile-banner { height: 320px;}
 }
