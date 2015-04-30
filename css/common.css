@@ -1499,6 +1499,12 @@ ul.sub-services-list li {
 	padding-left: 10%;
 	padding-right: 10%
 }
+.home-about p {
+	font-size: 22px;
+	line-height: 38px;
+	letter-spacing: 0px;
+	text-align: center;
+}
 .two-col-content {
 	width: 42.5%;
 	float: left;
@@ -1516,6 +1522,7 @@ ul.sub-services-list li {
 	line-height: 38px;
 	letter-spacing: 0px
 }
+
 .two-col-left {
 	margin-right: 5%;
 	margin-left: 2.5%
@@ -3087,9 +3094,8 @@ blockquote p {
 		line-height: 33px
 	}
 	h2, h2.serif-light-title, .casestudy-page h2, .article-content h2 {
-		font-size: 31px;
-		line-height: 40px
-	}
+		font-size: 22px;
+		line-height: 36px;}
 	button, .button {
 		padding: 15px 19px 16px;
 		font-size: 14px
@@ -3119,8 +3125,7 @@ blockquote p {
 	}
 	p, .four-col-content p, .four-col-content li {
 		font-size: 15px;
-		line-height: 25px
-	}
+		line-height: 25px}
 	.article-footer-content h3 {
 		font-size: 22px
 	}

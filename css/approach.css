@@ -13,10 +13,14 @@
 	margin: 0;
 }
 .profile-banner {
-	background: url('../img/profile-banner.svg') no-repeat center top;
+	background: url('../img/profile-banner.svg') no-repeat center bottom;
 	background-size: contain;
 	width: 100%;
 	height: 600px;
+}
+.profile-services p , .pro-services p {
+	font-size: 22px;
+	line-height: 36px;
 }
 .pro-services .two-col-content { width: 50%; }
 @media only screen and (max-width: 480px) {
@@ -65,5 +69,5 @@
 }
 
 @media only screen and (max-width: 480px) {
-	.profile-banner { height: 320px;}
+	.profile-banner { height: 208px;}
 }
