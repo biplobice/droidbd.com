@@ -1,35 +1,42 @@
 <?php
 
-function recurseTree($var){
-  $out = '<li>';
-  foreach($var as $v){
-    if(is_array($v)){
-      $out .= '<ul>'.recurseTree($v).'</ul>';
-    }else{
-      $out .= $v;
-    }
-  }
-  return $out.'</li>';
+function recurseTree($var) {
+	$out = '';
+	foreach ($var as $key => $value) {
+		if (is_array($value)) {
+			$out .= "<li>".$key.": <ul>". recurseTree($value) ."</ul></li>";
+		} else {
+			$out .= "<li>".$key. ": " . $value . "</li>";
+		}
+	}
+	return $out;
 }
 
-$txt = '<ul>'.recurseTree($_POST).'</ul>';
-
+$body = '<ul>'.recurseTree($_POST).'</ul>';
 
 $to = "biplob.ice@gmail.com";
 $subject = "DroidBd Contact Form";
-//$txt = print_r($_POST);
 
+$message = "
+<html>
+<head>
+<title>HTML email</title>
+</head>
+<body>" . $body .
+"</body>
+</html>
+";
 
 // Always set content-type when sending HTML email
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers = "From: no-reply@droidbd.com" . "\r\n" ;
-//$headers .= 'Cc: myboss@example.com' . "\r\n";
+$headers .= 'From: <contact@droidbd.com>' . "\r\n";
+$headers .= 'Bcc: biplob.ice@gmail.com' . "\r\n";
 
-
- if ( mail($to,$subject,$txt,$headers) ) {
+;
+ if ( mail($to,$subject,$message,$headers) ) {
 	echo "Mail Sent!";
 } else {
 	echo "Mail Not Sent";

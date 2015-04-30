@@ -18,6 +18,14 @@
 	width: 100%;
 	height: 600px;
 }
+.profile-services h1 {
+	color: #ea3852;
+	font-size: 60px;
+}
+.profile-services h2 {
+	font-size: 32px;
+	padding-bottom: 20px;
+}
 .profile-services p , .pro-services p {
 	font-size: 22px;
 	line-height: 36px;

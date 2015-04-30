@@ -798,7 +798,8 @@ button:active, .button:active {
 	background: none, -moz-linear-gradient(top, rgba(20,17,23,0.9) 10%, rgba(20,17,23,0) 100%);
 	background: none, -o-linear-gradient(top, rgba(20,17,23,0.9) 10%, rgba(20,17,23,0) 100%);
 	background: none, linear-gradient(top, rgba(20,17,23,0.9) 10%,rgba(20,17,23,0) 100%);
-	padding: 3.5% 5.5%
+	padding: 3.5% 5.5%;
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;   -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;   transition: background .5s ease-in-out,padding .5s ease-in-out;	
 }
 #site-header.onscroll {
 	height: 40px;
