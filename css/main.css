@@ -496,7 +496,7 @@ body {
 .approach-intro-graphic__before, .approach-intro-graphic__after {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 700;
 	font-size: 11px;
 	font-size: 1.1rem;
@@ -1285,7 +1285,7 @@ body {
 .heading-set__primary {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 400;
 	font-size: 12px;
 	font-size: 1.2rem;
@@ -1306,7 +1306,7 @@ body {
 .heading-set__secondary {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Futura W01 Bold', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 400;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -2882,7 +2882,7 @@ body {
 #svg-approach-team-table text, #svg-approach-team-table tspan {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 700;
 	font-size: 11px;
 	font-size: 1.1rem;
@@ -3872,7 +3872,7 @@ body {
 .l-approach-team__intro {
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 400;
 	font-size: 13px;
 	font-size: 1.3rem;
@@ -3880,7 +3880,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial;
+	/* font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial; */
 	font-weight: 700;
 	color: #fff;
 	line-height: 1.7
