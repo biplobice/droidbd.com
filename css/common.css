@@ -32,15 +32,19 @@
     font-style: normal;
 }*/
 
-.footer-bottom .three-col-content {
+.footer-bottom .col-1, .footer-bottom .col-2 {
 	float: left;
-	width: 33%;
+	width: 37%;
+}
+.footer-bottom .col-3 {
+	float: left;
+	width: 26%;
 }
 .footer-bottom p {
 	margin: 1em 0;
 }
 @media only screen and (max-width: 600px) {
-	.footer-bottom .three-col-content {
+	.footer-bottom .col-1, .footer-bottom .col-2, .footer-bottom .col-3 {
 		width: 100%;
 		text-align: center;
 	}
@@ -1619,8 +1623,7 @@ ul.sub-services-list li {
 }
 .photo-grid-intro {
 	width: 100%;
-	background: #249588
-}
+	background: #FFDF91;}
 .photo-grid-intro h1 {
 	font-family: "ff-din-web", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
